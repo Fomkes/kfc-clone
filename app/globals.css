@@ -102,3 +102,26 @@ body {
 .banner-gradient {
   background: linear-gradient(135deg, var(--kfc-red) 0%, var(--kfc-dark-red) 100%);
 }
+
+/* Hide scrollbar utilities */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Custom classes matching original KFC */
+.text-dred {
+  color: #e4002b;
+}
+
+.bg-dred {
+  background-color: #e4002b;
+}
+
+.border-dred {
+  border-color: #e4002b;
+}
