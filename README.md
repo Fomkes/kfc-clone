@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍗 KFC Clone - Полный клон сайта KFC
 
-## Getting Started
+Полнофункциональный клон сайта KFC, созданный с использованием Next.js 15, TypeScript и Tailwind CSS. Проект полностью воспроизводит дизайн, UX и функциональность оригинального сайта KFC.
 
-First, run the development server:
+## ✨ Особенности
+
+### 📱 Полная адаптивность
+- Идеально работает на мобильных устройствах, планшетах и десктопах
+- Нижняя навигация для мобильных устройств
+- Адаптивные изображения и контейнеры
+
+### 🎨 Точное воспроизведение дизайна
+- Оригинальная цветовая схема KFC
+- Точные шрифты и типографика
+- Анимации и переходы как на оригинальном сайте
+
+### 📄 Все страницы реализованы:
+- **Главная страница** - баннеры, категории, бестселлеры, акции
+- **Меню** - полный каталог с фильтрацией и сортировкой
+- **Корзина** - управление заказом, подсчет итогов
+- **Поиск** - поиск по продуктам с историей
+- **Предложения** - акции и купоны
+- **Заказы** - активные и прошлые заказы
+
+### 🚀 Функциональность
+- Модальное окно выбора локации (доставка/самовывоз)
+- Корзина с сохранением в localStorage
+- Поиск с фильтрацией в реальном времени
+- Категории и фильтры продуктов
+- Анимации с Framer Motion
+- Оптимизация изображений через Next.js Image
+
+## 🛠 Технологии
+
+- **Next.js 15.5** - React фреймворк с App Router
+- **TypeScript** - Типизация для надежности кода
+- **Tailwind CSS** - Утилитарный CSS фреймворк
+- **Framer Motion** - Библиотека анимаций
+- **Lucide React** - Иконки
+
+## 📦 Установка
 
 ```bash
+# Клонирование репозитория
+git clone https://github.com/Fomkes/kfc-clone.git
+cd kfc-clone
+
+# Установка зависимостей
+npm install
+
+# Запуск в режиме разработки
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Сборка для продакшена
+npm run build
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏗 Структура проекта
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+kfc-clone/
+├── app/                    # Next.js App Router
+│   ├── page.tsx           # Главная страница
+│   ├── menu/              # Страница меню
+│   ├── cart/              # Корзина
+│   ├── search/            # Поиск
+│   ├── offers/            # Акции
+│   ├── orders/            # Заказы
+│   └── layout.tsx         # Основной layout
+├── components/            
+│   ├── layout/            # Header, Footer, BottomNav
+│   └── features/          # LocationModal и др.
+├── lib/                   
+│   └── data.ts           # Данные продуктов
+└── public/               # Статические файлы
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Реализованные функции
 
-## Learn More
+✅ Полностью адаптивный дизайн  
+✅ Все основные страницы  
+✅ Модальное окно выбора локации  
+✅ Функциональная корзина  
+✅ Поиск и фильтрация  
+✅ Анимации и переходы  
+✅ Сохранение состояния в localStorage  
+✅ SEO оптимизация  
+✅ Оптимизация производительности  
 
-To learn more about Next.js, take a look at the following resources:
+## 📱 Скриншоты
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Проект полностью воспроизводит оригинальный сайт KFC с сохранением всех визуальных элементов и пользовательского опыта.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 Лицензия
 
-## Deploy on Vercel
+Этот проект создан исключительно в образовательных целях. Все права на бренд KFC, логотипы и изображения принадлежат KFC Corporation.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Примечание**: Это учебный проект, не связанный с официальной компанией KFC.
