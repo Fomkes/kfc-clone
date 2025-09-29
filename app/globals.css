@@ -1,16 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --kfc-red: #e60a14;
+  --background: #ffffff !important;
+  --foreground: #000000 !important;
+  --kfc-red: #e4002b;
   --kfc-dark-red: #c20e18;
   --kfc-black: #000000;
   --kfc-white: #ffffff;
-  --kfc-gray: #8f8f8f;
+  --kfc-gray: #6b6b6b;
   --kfc-light-gray: #f5f5f5;
   --kfc-yellow: #ffc600;
   --kfc-green: #00a652;
+  background-color: #ffffff !important;
 }
 
 @theme inline {

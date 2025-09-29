@@ -10,12 +10,12 @@ const config: Config = {
     extend: {
       colors: {
         kfc: {
-          red: '#e60a14',
-          'dark-red': '#c20e18',
+          red: '#e4002b',
+          'dark-red': '#c20e18', 
           black: '#000000',
           white: '#ffffff',
-          gray: '#8f8f8f',
-          'light-gray': '#f5f5f5',
+          gray: '#6b6b6b',
+          'light-gray': '#f7f7f7',
           yellow: '#ffc600',
           green: '#00a652',
         },

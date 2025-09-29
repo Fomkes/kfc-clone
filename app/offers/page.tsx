@@ -62,7 +62,7 @@ export default function OffersPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 pt-20 pb-20 md:pb-0">
+    <div className="min-h-screen bg-white pt-20 pb-20 md:pb-0">
       <div className="container mx-auto px-4">
         <h1 className="text-3xl font-bold mb-8">Exclusive Offers</h1>
 

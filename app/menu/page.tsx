@@ -64,7 +64,7 @@ function MenuContent() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 pt-20 pb-20 md:pb-0">
+    <div className="min-h-screen bg-white pt-20 pb-20 md:pb-0">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="mb-8">
@@ -222,7 +222,7 @@ function MenuContent() {
 export default function MenuPage() {
   return (
     <Suspense fallback={
-      <div className="min-h-screen bg-gray-50 pt-20 pb-20 md:pb-0 flex items-center justify-center">
+      <div className="min-h-screen bg-white pt-20 pb-20 md:pb-0 flex items-center justify-center">
         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-kfc-red"></div>
       </div>
     }>

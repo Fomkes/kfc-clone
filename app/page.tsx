@@ -46,7 +46,7 @@ export default function Home() {
   const bestsellers = products.filter(p => p.isBestseller).slice(0, 3);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white text-black">
       <LocationModal
         isOpen={isLocationModalOpen}
         onClose={() => setIsLocationModalOpen(false)}
